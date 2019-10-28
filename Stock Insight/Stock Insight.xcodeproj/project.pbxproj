@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65453BF6236759E9007EA035 /* StockKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65453BF5236759E9007EA035 /* StockKit.swift */; };
+		65453BFA2367623B007EA035 /* ChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65453BF92367623B007EA035 /* ChartView.xib */; };
+		65453BFC23676303007EA035 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65453BFB23676303007EA035 /* ChartView.swift */; };
+		65453C0223676536007EA035 /* StockDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65453C0123676536007EA035 /* StockDataCell.xib */; };
+		65453C0423676555007EA035 /* StockDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65453C0323676555007EA035 /* StockDataCell.swift */; };
+		659505BF2366A08300F5A240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659505BE2366A08300F5A240 /* AppDelegate.swift */; };
+		659505C12366A08300F5A240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659505C02366A08300F5A240 /* SceneDelegate.swift */; };
+		659505C32366A08300F5A240 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659505C22366A08300F5A240 /* SecondViewController.swift */; };
+		659505C62366A08300F5A240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659505C42366A08300F5A240 /* Main.storyboard */; };
+		659505C92366A08300F5A240 /* Stock_Insight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659505C72366A08300F5A240 /* Stock_Insight.xcdatamodeld */; };
+		659505CB2366A08500F5A240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659505CA2366A08500F5A240 /* Assets.xcassets */; };
+		659505CE2366A08500F5A240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659505CC2366A08500F5A240 /* LaunchScreen.storyboard */; };
+		659505D92366A08500F5A240 /* Stock_InsightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659505D82366A08500F5A240 /* Stock_InsightTests.swift */; };
+		659505E62366A75A00F5A240 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659505E52366A75A00F5A240 /* TableViewController.swift */; };
+		659505E82366AE6E00F5A240 /* StockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659505E72366AE6E00F5A240 /* StockCell.xib */; };
+		659505EB2366AFF800F5A240 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659505EA2366AFF800F5A240 /* StockCell.swift */; };
+		6F2396566C8440B2D68E6AE7 /* Pods_Stock_InsightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083197C9A3CDD0FAD6CBF277 /* Pods_Stock_InsightTests.framework */; };
+		D88F5A47F2F082485A68F92D /* Pods_Stock_Insight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0412102924CF183A8F95F8 /* Pods_Stock_Insight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		659505D52366A08500F5A240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659505B32366A08300F5A240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659505BA2366A08300F5A240;
+			remoteInfo = "Stock Insight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083197C9A3CDD0FAD6CBF277 /* Pods_Stock_InsightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_InsightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65453BF5236759E9007EA035 /* StockKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockKit.swift; sourceTree = "<group>"; };
+		65453BF92367623B007EA035 /* ChartView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartView.xib; sourceTree = "<group>"; };
+		65453BFB23676303007EA035 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		65453C0123676536007EA035 /* StockDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockDataCell.xib; sourceTree = "<group>"; };
+		65453C0323676555007EA035 /* StockDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataCell.swift; sourceTree = "<group>"; };
+		659505BB2366A08300F5A240 /* Stock Insight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Insight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659505BE2366A08300F5A240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		659505C02366A08300F5A240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		659505C22366A08300F5A240 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		659505C52366A08300F5A240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		659505C82366A08300F5A240 /* Stock_Insight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stock_Insight.xcdatamodel; sourceTree = "<group>"; };
+		659505CA2366A08500F5A240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659505CD2366A08500F5A240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		659505CF2366A08500F5A240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659505D42366A08500F5A240 /* Stock InsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stock InsightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659505D82366A08500F5A240 /* Stock_InsightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock_InsightTests.swift; sourceTree = "<group>"; };
+		659505DA2366A08500F5A240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659505E52366A75A00F5A240 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		659505E72366AE6E00F5A240 /* StockCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockCell.xib; sourceTree = "<group>"; };
+		659505EA2366AFF800F5A240 /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		7CBF6FC5B6983263B5CFB09D /* Pods-Stock InsightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock InsightTests.debug.xcconfig"; path = "Target Support Files/Pods-Stock InsightTests/Pods-Stock InsightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0412102924CF183A8F95F8 /* Pods_Stock_Insight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_Insight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7554109366C41D2F1A76C02 /* Pods-Stock InsightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock InsightTests.release.xcconfig"; path = "Target Support Files/Pods-Stock InsightTests/Pods-Stock InsightTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF22378348066288BCED850B /* Pods-Stock Insight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Insight.release.xcconfig"; path = "Target Support Files/Pods-Stock Insight/Pods-Stock Insight.release.xcconfig"; sourceTree = "<group>"; };
+		DA91E007E1780CB45D45191A /* Pods-Stock Insight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Insight.debug.xcconfig"; path = "Target Support Files/Pods-Stock Insight/Pods-Stock Insight.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659505B82366A08300F5A240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88F5A47F2F082485A68F92D /* Pods_Stock_Insight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659505D12366A08500F5A240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2396566C8440B2D68E6AE7 /* Pods_Stock_InsightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FA23D2C0CE4B4DFC58D857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F0412102924CF183A8F95F8 /* Pods_Stock_Insight.framework */,
+				083197C9A3CDD0FAD6CBF277 /* Pods_Stock_InsightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659505B22366A08300F5A240 = {
+			isa = PBXGroup;
+			children = (
+				659505BD2366A08300F5A240 /* Stock Insight */,
+				659505D72366A08500F5A240 /* Stock InsightTests */,
+				659505BC2366A08300F5A240 /* Products */,
+				7C73C09B0BA19B681BCA908A /* Pods */,
+				24FA23D2C0CE4B4DFC58D857 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		659505BC2366A08300F5A240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659505BB2366A08300F5A240 /* Stock Insight.app */,
+				659505D42366A08500F5A240 /* Stock InsightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659505BD2366A08300F5A240 /* Stock Insight */ = {
+			isa = PBXGroup;
+			children = (
+				659505E92366AFA900F5A240 /* Xibs */,
+				659505BE2366A08300F5A240 /* AppDelegate.swift */,
+				659505C02366A08300F5A240 /* SceneDelegate.swift */,
+				659505C22366A08300F5A240 /* SecondViewController.swift */,
+				659505C42366A08300F5A240 /* Main.storyboard */,
+				659505CA2366A08500F5A240 /* Assets.xcassets */,
+				659505CC2366A08500F5A240 /* LaunchScreen.storyboard */,
+				659505CF2366A08500F5A240 /* Info.plist */,
+				659505C72366A08300F5A240 /* Stock_Insight.xcdatamodeld */,
+				659505E52366A75A00F5A240 /* TableViewController.swift */,
+				65453BF5236759E9007EA035 /* StockKit.swift */,
+				65453BF92367623B007EA035 /* ChartView.xib */,
+				65453BFB23676303007EA035 /* ChartView.swift */,
+			);
+			path = "Stock Insight";
+			sourceTree = "<group>";
+		};
+		659505D72366A08500F5A240 /* Stock InsightTests */ = {
+			isa = PBXGroup;
+			children = (
+				659505D82366A08500F5A240 /* Stock_InsightTests.swift */,
+				659505DA2366A08500F5A240 /* Info.plist */,
+			);
+			path = "Stock InsightTests";
+			sourceTree = "<group>";
+		};
+		659505E92366AFA900F5A240 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				659505E72366AE6E00F5A240 /* StockCell.xib */,
+				659505EA2366AFF800F5A240 /* StockCell.swift */,
+				65453C0123676536007EA035 /* StockDataCell.xib */,
+				65453C0323676555007EA035 /* StockDataCell.swift */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		7C73C09B0BA19B681BCA908A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA91E007E1780CB45D45191A /* Pods-Stock Insight.debug.xcconfig */,
+				AF22378348066288BCED850B /* Pods-Stock Insight.release.xcconfig */,
+				7CBF6FC5B6983263B5CFB09D /* Pods-Stock InsightTests.debug.xcconfig */,
+				A7554109366C41D2F1A76C02 /* Pods-Stock InsightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659505BA2366A08300F5A240 /* Stock Insight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659505DD2366A08500F5A240 /* Build configuration list for PBXNativeTarget "Stock Insight" */;
+			buildPhases = (
+				FE949A50DB26810E4A125E12 /* [CP] Check Pods Manifest.lock */,
+				659505B72366A08300F5A240 /* Sources */,
+				659505B82366A08300F5A240 /* Frameworks */,
+				659505B92366A08300F5A240 /* Resources */,
+				B9B132B1AB1622B9B5D6C30C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stock Insight";
+			productName = "Stock Insight";
+			productReference = 659505BB2366A08300F5A240 /* Stock Insight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		659505D32366A08500F5A240 /* Stock InsightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659505E02366A08500F5A240 /* Build configuration list for PBXNativeTarget "Stock InsightTests" */;
+			buildPhases = (
+				4B72B196CC202779D1FC78F8 /* [CP] Check Pods Manifest.lock */,
+				659505D02366A08500F5A240 /* Sources */,
+				659505D12366A08500F5A240 /* Frameworks */,
+				659505D22366A08500F5A240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659505D62366A08500F5A240 /* PBXTargetDependency */,
+			);
+			name = "Stock InsightTests";
+			productName = "Stock InsightTests";
+			productReference = 659505D42366A08500F5A240 /* Stock InsightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659505B32366A08300F5A240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Sudip Chitroda";
+				TargetAttributes = {
+					659505BA2366A08300F5A240 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					659505D32366A08500F5A240 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 659505BA2366A08300F5A240;
+					};
+				};
+			};
+			buildConfigurationList = 659505B62366A08300F5A240 /* Build configuration list for PBXProject "Stock Insight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659505B22366A08300F5A240;
+			productRefGroup = 659505BC2366A08300F5A240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659505BA2366A08300F5A240 /* Stock Insight */,
+				659505D32366A08500F5A240 /* Stock InsightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659505B92366A08300F5A240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659505CE2366A08500F5A240 /* LaunchScreen.storyboard in Resources */,
+				659505CB2366A08500F5A240 /* Assets.xcassets in Resources */,
+				659505E82366AE6E00F5A240 /* StockCell.xib in Resources */,
+				65453BFA2367623B007EA035 /* ChartView.xib in Resources */,
+				65453C0223676536007EA035 /* StockDataCell.xib in Resources */,
+				659505C62366A08300F5A240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659505D22366A08500F5A240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B72B196CC202779D1FC78F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stock InsightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B132B1AB1622B9B5D6C30C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Insight/Pods-Stock Insight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Insight/Pods-Stock Insight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stock Insight/Pods-Stock Insight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE949A50DB26810E4A125E12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stock Insight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659505B72366A08300F5A240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659505C32366A08300F5A240 /* SecondViewController.swift in Sources */,
+				659505BF2366A08300F5A240 /* AppDelegate.swift in Sources */,
+				65453BF6236759E9007EA035 /* StockKit.swift in Sources */,
+				659505EB2366AFF800F5A240 /* StockCell.swift in Sources */,
+				659505C12366A08300F5A240 /* SceneDelegate.swift in Sources */,
+				65453C0423676555007EA035 /* StockDataCell.swift in Sources */,
+				659505E62366A75A00F5A240 /* TableViewController.swift in Sources */,
+				659505C92366A08300F5A240 /* Stock_Insight.xcdatamodeld in Sources */,
+				65453BFC23676303007EA035 /* ChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659505D02366A08500F5A240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659505D92366A08500F5A240 /* Stock_InsightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659505D62366A08500F5A240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659505BA2366A08300F5A240 /* Stock Insight */;
+			targetProxy = 659505D52366A08500F5A240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		659505C42366A08300F5A240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659505C52366A08300F5A240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		659505CC2366A08500F5A240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659505CD2366A08500F5A240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		659505DB2366A08500F5A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		659505DC2366A08500F5A240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659505DE2366A08500F5A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA91E007E1780CB45D45191A /* Pods-Stock Insight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B97YWB9NV;
+				INFOPLIST_FILE = "Stock Insight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sudip-Chitroda.Stock-Insight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659505DF2366A08500F5A240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF22378348066288BCED850B /* Pods-Stock Insight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B97YWB9NV;
+				INFOPLIST_FILE = "Stock Insight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sudip-Chitroda.Stock-Insight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		659505E12366A08500F5A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBF6FC5B6983263B5CFB09D /* Pods-Stock InsightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B97YWB9NV;
+				INFOPLIST_FILE = "Stock InsightTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sudip-Chitroda.Stock-InsightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stock Insight.app/Stock Insight";
+			};
+			name = Debug;
+		};
+		659505E22366A08500F5A240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7554109366C41D2F1A76C02 /* Pods-Stock InsightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B97YWB9NV;
+				INFOPLIST_FILE = "Stock InsightTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sudip-Chitroda.Stock-InsightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stock Insight.app/Stock Insight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659505B62366A08300F5A240 /* Build configuration list for PBXProject "Stock Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659505DB2366A08500F5A240 /* Debug */,
+				659505DC2366A08500F5A240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659505DD2366A08500F5A240 /* Build configuration list for PBXNativeTarget "Stock Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659505DE2366A08500F5A240 /* Debug */,
+				659505DF2366A08500F5A240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659505E02366A08500F5A240 /* Build configuration list for PBXNativeTarget "Stock InsightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659505E12366A08500F5A240 /* Debug */,
+				659505E22366A08500F5A240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		659505C72366A08300F5A240 /* Stock_Insight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				659505C82366A08300F5A240 /* Stock_Insight.xcdatamodel */,
+			);
+			currentVersion = 659505C82366A08300F5A240 /* Stock_Insight.xcdatamodel */;
+			path = Stock_Insight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 659505B32366A08300F5A240 /* Project object */;
+}

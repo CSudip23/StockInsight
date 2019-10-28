@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stockCell" rowHeight="60" id="E8C-1y-lKg" customClass="StockCell" customModule="SwiftStockExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E8C-1y-lKg" id="yYl-5b-AhG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79C-5B-Udb">
+                        <rect key="frame" x="16" y="12" width="149" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="149" id="LhV-Gn-1Fb"/>
+                            <constraint firstAttribute="height" constant="21" id="mOA-Ix-sNX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ford Motor Company" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVE-Q7-KPp">
+                        <rect key="frame" x="8" y="34" width="140" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="SbX-5H-lah"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.49917685249999999" green="0.1944865352" blue="0.77761243390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NYSE  |  Equity" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xaq-fe-Qkk">
+                        <rect key="frame" x="195" y="34" width="117" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="er2-U2-kAd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.49917685249999999" green="0.1944865352" blue="0.77761243390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="lVE-Q7-KPp" secondAttribute="trailing" constant="164" id="ESk-Cd-Ogg"/>
+                    <constraint firstItem="lVE-Q7-KPp" firstAttribute="leading" secondItem="yYl-5b-AhG" secondAttribute="leadingMargin" id="FfP-Xd-dV3"/>
+                    <constraint firstItem="Xaq-fe-Qkk" firstAttribute="leading" secondItem="yYl-5b-AhG" secondAttribute="leadingMargin" constant="187" id="LEJ-Ad-YBD"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lVE-Q7-KPp" secondAttribute="bottom" constant="-4" id="Sjq-TW-C6I"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Xaq-fe-Qkk" secondAttribute="bottom" constant="-4" id="Uhj-30-Ord"/>
+                    <constraint firstItem="Xaq-fe-Qkk" firstAttribute="trailing" secondItem="yYl-5b-AhG" secondAttribute="trailingMargin" id="f6a-cc-1Ck"/>
+                    <constraint firstItem="79C-5B-Udb" firstAttribute="top" secondItem="yYl-5b-AhG" secondAttribute="topMargin" constant="1" id="pg3-9Y-OLi"/>
+                    <constraint firstItem="79C-5B-Udb" firstAttribute="leading" secondItem="yYl-5b-AhG" secondAttribute="leadingMargin" id="xAy-lO-4AG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="InfoLabel" destination="Xaq-fe-Qkk" id="N2R-D9-5RQ"/>
+                <outlet property="symbolCompany" destination="lVE-Q7-KPp" id="os0-Nf-yLt"/>
+                <outlet property="symbolLabel" destination="79C-5B-Udb" id="epM-9S-4A3"/>
+            </connections>
+            <point key="canvasLocation" x="57" y="39"/>
+        </tableViewCell>
+    </objects>
+</document>

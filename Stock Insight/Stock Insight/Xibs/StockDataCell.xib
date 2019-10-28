@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="stockDataCell" id="B3W-BL-nyU" customClass="StockDataCell" customModule="SwiftStockExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="44"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4238543" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDu-0g-lGQ">
+                        <rect key="frame" x="100" y="11" width="67" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="zNy-Yx-SUE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.49917685249999999" green="0.1944865352" blue="0.77761243390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nia-0K-ZvA">
+                        <rect key="frame" x="15" y="11" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6iE-I9-deX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4x7-GO-nn6">
+                        <rect key="frame" x="5" y="43" width="173" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="vgk-h2-LfL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nia-0K-ZvA" secondAttribute="trailing" constant="80" id="8Rq-gh-6bs"/>
+                <constraint firstAttribute="bottom" secondItem="4x7-GO-nn6" secondAttribute="bottom" id="CRi-Jh-S3b"/>
+                <constraint firstItem="nia-0K-ZvA" firstAttribute="top" secondItem="B3W-BL-nyU" secondAttribute="top" constant="11" id="Lql-u6-utw"/>
+                <constraint firstItem="4x7-GO-nn6" firstAttribute="leading" secondItem="B3W-BL-nyU" secondAttribute="leading" constant="5" id="PZi-0Z-PEC"/>
+                <constraint firstAttribute="trailing" secondItem="4x7-GO-nn6" secondAttribute="trailing" constant="2" id="UAh-AE-V8k"/>
+                <constraint firstItem="NDu-0g-lGQ" firstAttribute="leading" secondItem="B3W-BL-nyU" secondAttribute="leading" constant="100" id="qPD-Dz-pQw"/>
+                <constraint firstAttribute="trailing" secondItem="NDu-0g-lGQ" secondAttribute="trailing" constant="13" id="s1R-7v-spe"/>
+                <constraint firstItem="nia-0K-ZvA" firstAttribute="leading" secondItem="B3W-BL-nyU" secondAttribute="leading" constant="15" id="v0l-wA-Ebz"/>
+                <constraint firstItem="NDu-0g-lGQ" firstAttribute="top" secondItem="B3W-BL-nyU" secondAttribute="top" constant="11" id="wMQ-Mq-IYd"/>
+            </constraints>
+            <size key="customSize" width="160" height="44"/>
+            <connections>
+                <outlet property="fieldName" destination="nia-0K-ZvA" id="1MN-6R-ZZf"/>
+                <outlet property="fieldValue" destination="NDu-0g-lGQ" id="HW0-ab-89F"/>
+            </connections>
+            <point key="canvasLocation" x="130" y="118"/>
+        </collectionViewCell>
+    </objects>
+</document>

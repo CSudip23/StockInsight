@@ -1,0 +1,6 @@
+framework module Pods_Stock_Insight {
+  umbrella header "Pods-Stock Insight-umbrella.h"
+
+  export *
+  module * { export * }
+}
